@@ -1,0 +1,14 @@
+{
+  "name": "dmx",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend run dev",
+    "install:all": "npm install --prefix frontend && npm install --prefix backend"
+  }
+}
