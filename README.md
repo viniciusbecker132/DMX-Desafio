@@ -18,9 +18,14 @@
 Utilizei a **Context API** por já ser nativa do React e, como este não é um projeto de grande porte, ela atende bem às necessidades sem adicionar dependências extras.
 
 ---
+## Tarefas Pendentes
 
+- [ ] Implementar dashboards  
+- [ ] Implementar logs
+
+---
 ## Como Rodar o Projeto
 
-### DMX
+### DMX (rodar na raiz do projeto "/DMX")
 docker compose up <br>
 docker compose up --build
